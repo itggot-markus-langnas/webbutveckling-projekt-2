@@ -1,0 +1,267 @@
+* {
+    text-decoration: none;
+}
+body{
+    min-height: 100vh;
+    background-image: url("../img/christmas-tree-background-cartoon-christmas-background-with-christmas-tree-and-snow-looping-animation_ejhrr4x2__F0000.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow-x: hidden
+}
+
+
+  .menu{
+    height: 100vh;
+    width: 80vw;
+    background-image: url("../img/etiqvk3f4nphmidizbovjvbb3hknfxavvsqaujeqo794ptgu7a5bmxupgmmvihzx-.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: -90vw;
+    transition: left 0.3s;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+    z-index: 100;
+}
+
+.menu-button{
+    display: inline;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.menu-button i.material-icons{
+    font-size: 2rem;
+}
+
+.show{
+    left: 0;
+}
+
+.fade-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 2;
+}
+
+.fade-layer.visible{
+    display: block;
+}
+
+  header{
+      background-color: white;
+      opacity: 0.8;
+      background-position: left;
+      height: 100px;
+      width: 100%;
+  }
+
+  header .header-text{
+      font-size: 25px;
+      font-family: 'Times New Roman', Times, serif;
+      color: #111;
+      text-transform: uppercase;
+      font-weight: 800;
+      display: block;
+      margin: 0;
+      text-align: center;
+      padding: 15px auto;
+    }
+
+
+    header nav ul li{
+        display: inline-block;
+        float: none;
+        list-style: none;
+    }
+  
+    header nav ul li a{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #111;
+    }
+  
+ 
+ 
+      .index-bildtext{
+        text-align: center;
+        color: beige;
+          
+      }
+
+      .menu ul  {
+        font-size: 25px;
+        list-style: none;
+
+      }
+
+      .menu ul li{
+          margin-bottom: 30px;
+      }
+
+      .menu a{
+          color: white;
+      }
+
+      
+
+
+.julklappar{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        }
+
+    .pic{
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        height: 190px;
+        width: 250px;
+        border: 5px solid red;
+        margin-top: 10%;
+        text-align: center;
+
+    
+    }
+    
+    .julklapp1{
+        background-image: url("../img/Julklappen1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .julklapp2{
+        background-image: url("../img/itunes250.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .julklapp3{
+        background-image: url("../img/hopp.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .julklapp4{
+        background-image: url("../img/lego.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .julklapp5{
+        background-image: url("../img/sminet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+    .julklapp6{
+        background-image: url("../img/kläder.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+     
+    .pic:hover {
+        transform: scale(1.1)
+    }
+    
+    .text p{
+        display: none;
+    }
+    
+    .text:hover p{
+        display: block;
+    }
+
+    .nedrakning{
+        display: flex;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+.cirkel{
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+    @media only screen and (min-device-width: 768px){
+        .pic{
+            box-sizing: border-box;
+            height: 250px;
+            width: 25%;
+            border: 5px solid red;
+            float: left;
+            margin-left: 2px;
+            margin-top: 1%;
+            background-image: url("nassenff.gif");
+            background-repeat: no-repeat;
+            background-color: palevioletred;
+            background-position: center;
+            text-align: center;
+            margin: 3.5%;
+        }
+        .julklapp1{
+            background-image: url("../img/Julklappen1.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .julklapp2{
+            background-image: url("../img/itunes250.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .julklapp3{
+            background-image: url("../img/hopp.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .julklapp4{
+            background-image: url("../img/lego.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .julklapp5{
+            background-image: url("../img/sminet.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .julklapp6{
+            background-image: url("../img/kläder.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        
+
+        .cirkel{
+            width: 500px;
+            height: 500px;
+        }
+    }
